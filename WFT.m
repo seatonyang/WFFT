@@ -7,7 +7,7 @@
 clear; clc; close all;
 
 % 加载Zernike图像数据
-load('zernikeResult.mat');
+load('test.mat');
 
 % 在进行傅里叶变换前，将NaN值替换为0
 zernikeResult(isnan(zernikeResult)) = 0;
